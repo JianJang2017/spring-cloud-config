@@ -1,0 +1,13 @@
+###配置中心配置
+server:
+  port: 9091
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          username: JianJang2017
+          password: 12323232322
+          uri: https://gitee.com/JianJang/cloud-config

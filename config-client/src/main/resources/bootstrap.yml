@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      uri: http://localhost:9091/
+      profile: prd
+      label: master
+server:
+  port: 9092
+####配置管理中心http://localhost:9091/

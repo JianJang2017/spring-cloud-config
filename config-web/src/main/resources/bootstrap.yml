@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-web
+  cloud:
+    config:
+      uri: http://localhost:9091/
+      profile: dev
+      label: master
+server:
+  port: 9099
+####\u8BE6\u7EC6\u914D\u7F6E\u53C2\u7167
+####https://gitee.com/JianJang/cloud-config/blob/master/cconfig-web-prd.properties
